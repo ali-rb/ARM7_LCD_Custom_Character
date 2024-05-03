@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\lcd custom character.o"
+--strict --scatter ".\Objects\LCD Custom Character.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LCD Custom Character.map" -o ".\Objects\LCD Custom Character.axf"
